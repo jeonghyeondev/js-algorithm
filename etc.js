@@ -1,8 +1,8 @@
-var fs = require("fs");
+var fs = require('fs');
 var input = fs
-  .readFileSync("etc.txt")
+  .readFileSync('etc.txt')
   .toString()
-  .split("\n"); // 한줄입력
+  .split('\n'); // 한줄입력
 // var input = fs.readFileSync(("etc.txt").toString().split('\r\n');
 // var input = fs.readFileSync(("etc.txt").toString().split(''); // 붙여써있는 Number,String
 // var input = fs.readFileSync(("etc.txt").toString().trim(); // 앞뒤공백제거(쇠막대기)
